@@ -86,7 +86,7 @@ nav img{
     opacity: 0;
 }
 
-/* Animation for fade-in effect */
+
 @keyframes fadeInAnimation {
     from {
         opacity: 0;
@@ -96,19 +96,19 @@ nav img{
     }
 }
 
-/* Apply animation to the title and text */
+
 .text-box h1,
 .text-box p {
-    animation: fadeInAnimation 1.5s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+    animation: fadeInAnimation 1.5s ease-in-out forwards; 
 }
 
 
 
 
 #bg-wrap {
-    width: 100%; /* Adjust as needed */
-    height: 800px; /* Adjust as needed */
-    overflow: hidden; /* Hide overflow content */
+    width: 100%; 
+    height: 800px; 
+    overflow: hidden; 
   }
 
 
@@ -264,12 +264,12 @@ body,html  {
 
 .about-me-content h1 {
     font-size: 42px;
-    font-weight: 600; /* Increased font weight for emphasis */
-    font-family: 'Fjalla One', sans-serif; /* Adjusted font family for a different look */
-    color: #781EA8; /* Changed the color to a purple shade, adjust as needed */
+    font-weight: 600;
+    font-family: 'Fjalla One', sans-serif; 
+    color: #781EA8; 
    
     padding-bottom: 10px;
-    margin-bottom: 20px; /* Added margin at the bottom for separation */
+    margin-bottom: 20px; 
 }
 
 .about-me-content p{
@@ -293,8 +293,8 @@ body,html  {
 .MOREINFO {
     width: 80%;
     margin: auto;
-    text-align: center; /* Adjust text alignment as needed */
-    padding-top: 80px; /* Reduce the padding */
+    text-align: center; 
+    padding-top: 80px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -302,17 +302,17 @@ body,html  {
   }
 
   .more-info-title {
-    margin-bottom: 20px; /* Adjust the space between title and circles */
+    margin-bottom: 20px;
   }
 
 .more-info-title h1 {
     font-size: 42px;
-    font-weight: 600; /* Increased font weight for emphasis */
-    font-family: 'Fjalla One', sans-serif; /* Adjusted font family for a different look */
-    color: #781EA8; /* Changed the color to a purple shade, adjust as needed */
+    font-weight: 600; 
+    font-family: 'Fjalla One', sans-serif; 
+    color: #781EA8;
    
     padding-bottom: 10px;
-    margin-bottom: 20px; /* Added margin at the bottom for separation */
+    margin-bottom: 20px;
 }
 
 .circle-container {
@@ -497,14 +497,13 @@ body {
 
 .message p{
     font-size: 42px;
-    font-weight: 600; /* Increased font weight for emphasis */
-    font-family: 'Fjalla One', sans-serif; /* Adjusted font family for a different look */
-    color: #781EA8; /* Changed the color to a purple shade, adjust as needed */
+    font-weight: 600; 
+    font-family: 'Fjalla One', sans-serif; 
+    color: #781EA8; 
    
     padding-bottom: 20px;
     margin-top: 40px; 
-    margin-bottom: 40px; /* Added margin at the bottom for separation */
-
+    margin-bottom: 40px; 
 }
 
 .card{
