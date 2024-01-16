@@ -1,0 +1,85 @@
+@media screen and (max-width: 1400px){
+    #header {
+        height: 83vh; 
+        margin-bottom: 6rem;
+
+    }
+
+    .text-box{
+        flex-wrap:wrap
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    #header, #bg-wrap{
+        display: block; 
+        width: 750px; 
+
+    }
+    .mousey{ 
+        display:none; 
+    
+    }
+
+  
+
+    .text-box {
+        
+
+    }
+
+    .text-box h1 {
+        font-size: 80px; 
+        width:fit-content;
+        padding-left: 250px; 
+    }
+
+    .text-box p{
+        display: none; 
+       
+
+    }
+
+    .ABOUTME{
+        padding-top:10px; 
+    }
+
+    
+
+
+    .about-me-image img {
+        width: 280px; 
+        padding-top: 40px; 
+    }
+
+
+
+    .about-me-text h1{
+        font-size: 80px; 
+        white-space: nowrap; 
+
+
+
+        
+    }
+
+    .about-me-content p{
+        font-size: 17px; 
+        color:white; 
+    }
+
+  
+    
+    .more-info-title h1 {
+        font-size: 50px; 
+        white-space: nowrap; 
+        text-align: center; 
+    }
+
+    .FOOTER{
+        width:750px; 
+    }
+
+
+}
